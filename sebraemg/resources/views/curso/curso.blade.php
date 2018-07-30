@@ -1,4 +1,4 @@
-@extends('layout.app')
+﻿@extends('layout.app')
 @section('title', 'Lista de Cursos')
 @section('csspersonalizado')
     <link rel="stylesheet" type="text/css" href="{{URL('/css/cursos/curso.css')}}">
@@ -15,7 +15,7 @@
         </div>
     </div>
 </div>
-    <div class="conteudocurso">
+    <div class="conteudocurso col-12">
         <div class="col-10 card-deck bg-white  ">
             <div class="col-12 card-title">
                 <h2>{{$curso->title}}</h2>
