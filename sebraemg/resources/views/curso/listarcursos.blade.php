@@ -36,14 +36,14 @@
           <div class="card-subtitle mb-2 ">
             <span class="my-0 font-weight-normal text-muted">
               <font style="vertical-align: inherit;">
-                <font style="vertical-align: inherit;">{{$curso->category}}</font>
+                <font style="vertical-align: inherit;">{{ucfirst($curso->category)}}</font>
               </font>
             </span>
           </div>
           
           <h1 class="card-title pricing-card-title">
               <font style="vertical-align: inherit;">
-                <font style="vertical-align: inherit;">{{$curso->title}}</font>
+                <font style="vertical-align: inherit;">{{ucfirst($curso->title)}}</font>
               </font>
           </h1>
           <h6 class="card-subtitle mb-2 text-muted">
