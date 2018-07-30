@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.azul {
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+.conteudocurso{  
+    position: relative;
+    width: 70%;
+    left: 15% !important;
+    right: 15% !important;
+}   
+.botaoinscricao{ 
+    height: 50px; 
+    cursor: pointer; 
+    background-color:#ff9222; 
+    color: white; 
+}
+.descricaocurso{
+    margin-bottom:10px;
+    text-align: justify;
+}
+.botaoCentro{
+    margin-left:40%;
+    margin-bottom: 20px;
+}
+.cinzaa{
+    color: #6c757d!important;
+}
+
+img{
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+}
