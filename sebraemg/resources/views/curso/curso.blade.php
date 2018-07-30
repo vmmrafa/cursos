@@ -1,14 +1,14 @@
 @extends('layout.app')
 @section('title', 'Lista de Cursos')
 @section('csspersonalizado')
-    <link rel="stylesheet" type="text/css" href="/css/cursos/curso.css">
+    <link rel="stylesheet" type="text/css" href="{{URL('/css/cursos/curso.css')}}">
 @endsection
 @section('content')
 <div class="azul">
     <div class=" col-md-12 d-flex flex-column  align-items-left p-4 px-md-4 mb-3 bg-info border-bottom box-shadow">
         <div class="row">
             <div class="col-md-2 text-white">
-                <a href="/curso" class="text-white">
+                <a href="{{URL('curso')}}" class="text-white">
                     <i class="fas fa-arrow-left"></i>
                 </a>
             </div>

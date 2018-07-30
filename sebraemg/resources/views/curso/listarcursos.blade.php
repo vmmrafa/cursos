@@ -2,7 +2,7 @@
 @section('title', 'Lista de Cursos')
 @section('content')
 
-  <div class="col-md-12 d-flex flex-column  align-items-left p-3 px-md-4 mb-2 bg-info border-bottom box-shadow">
+  <div class="col-md-12 d-flex flex-column  align-items-left p-2 px-md-4 mb-2 bg-info border-bottom box-shadow">
     <div class="row">
       <div class="col-md-2 text-white">
         <h2>Cursos</h2>
