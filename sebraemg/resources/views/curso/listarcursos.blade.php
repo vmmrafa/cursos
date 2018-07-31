@@ -10,7 +10,7 @@
       <div class="col-6 " style="text-align:center">
         <div class="input-group h2">
             <div class="col-12">  
-            <form method="POST" action="{{url('curso/buscar')}}">
+            <form method="POST" action="{{url('curso')}}">
               @csrf
               <div class="input-group mb-3">
                 <input type="text" class="form-control text-white" id="busca" name="busca"

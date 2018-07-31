@@ -13,6 +13,6 @@
 
 Route::get('/', 'CourseController@index');
 
-Route::resource('/curso', 'CourseController');
-Route::post('/curso/buscar', 'CourseController@busca');
-Route::post('/curso/busca', 'CourseController@pesquisarCursoPassado');
+Route::get('/curso', 'CourseController@index');
+Route::post('/curso', 'CourseController@busca');
+
